@@ -19,7 +19,7 @@ Exact output appears in a code block, followed by a full execution table. An out
 
 ## O002 — Left-associative subtraction
 
-**Answer: B**
+**Answer: D**
 
 ```text
 11
@@ -34,7 +34,7 @@ Exact output appears in a code block, followed by a full execution table. An out
 
 ## O003 — Integer quotient and remainder
 
-**Answer: C**
+**Answer: B**
 
 ```text
 5 3
@@ -49,7 +49,7 @@ Exact output appears in a code block, followed by a full execution table. An out
 
 ## O004 — Signed truncation
 
-**Answer: D**
+**Answer: C**
 
 ```text
 -5 -3
@@ -66,7 +66,7 @@ Exact output appears in a code block, followed by a full execution table. An out
 
 ## O005 — Assignment uses old values
 
-**Answer: A**
+**Answer: D**
 
 ```text
 10 5
@@ -102,7 +102,7 @@ Exact output appears in a code block, followed by a full execution table. An out
 
 ## O007 — Nested boundary condition
 
-**Answer: C**
+**Answer: D**
 
 ```text
 Z
@@ -155,7 +155,7 @@ A
 
 ## O010 — Conditional expression
 
-**Answer: B**
+**Answer: A**
 
 ```text
 9
@@ -172,7 +172,7 @@ A
 
 ## O011 — Inclusive step-two loop
 
-**Answer: C**
+**Answer: D**
 
 ```text
 16
@@ -196,7 +196,7 @@ A
 
 ## O012 — Descending loop
 
-**Answer: D**
+**Answer: B**
 
 ```text
 12
@@ -218,7 +218,7 @@ A
 
 ## O013 — Skipped FOR body
 
-**Answer: A**
+**Answer: B**
 
 ```text
 9
@@ -234,7 +234,7 @@ A
 
 ## O014 — Doubling loop
 
-**Answer: B**
+**Answer: C**
 
 ```text
 15 16
@@ -295,7 +295,7 @@ A
 
 ## O016 — Decrement before accumulation
 
-**Answer: D**
+**Answer: A**
 
 ```text
 10
@@ -327,7 +327,7 @@ A
 
 ## O017 — BREAK before addition
 
-**Answer: A**
+**Answer: C**
 
 ```text
 6
@@ -389,7 +389,7 @@ A
 
 ## O019 — WHILE update before CONTINUE
 
-**Answer: C**
+**Answer: A**
 
 ```text
 12
@@ -426,7 +426,7 @@ A
 
 ## O020 — Rectangular nested loop
 
-**Answer: D**
+**Answer: C**
 
 ```text
 6
@@ -504,7 +504,7 @@ A
 
 ## O022 — Inner BREAK only
 
-**Answer: B**
+**Answer: C**
 
 ```text
 6
@@ -553,7 +553,7 @@ A
 
 ## O023 — Dependent step increments
 
-**Answer: C**
+**Answer: A**
 
 ```text
 8
@@ -605,7 +605,7 @@ A
 
 ## O024 — Array accumulation
 
-**Answer: D**
+**Answer: B**
 
 ```text
 8
@@ -650,7 +650,7 @@ A
 
 ## O026 — Array alias
 
-**Answer: B**
+**Answer: A**
 
 ```text
 [3, 9] [3, 9]
@@ -667,7 +667,7 @@ A
 
 ## O027 — Array copy
 
-**Answer: C**
+**Answer: D**
 
 ```text
 [3, 4] [3, 9]
@@ -684,7 +684,7 @@ A
 
 ## O028 — First matching index
 
-**Answer: D**
+**Answer: A**
 
 ```text
 0
@@ -705,7 +705,7 @@ A
 
 ## O029 — Last matching index
 
-**Answer: A**
+**Answer: C**
 
 ```text
 2
@@ -730,7 +730,7 @@ A
 
 ## O030 — One bubble pass
 
-**Answer: B**
+**Answer: D**
 
 ```text
 [1, 3, 2, 4]
@@ -761,7 +761,7 @@ A
 
 ## O031 — Selection minimum index
 
-**Answer: C**
+**Answer: B**
 
 ```text
 3 2
@@ -786,7 +786,7 @@ A
 
 ## O032 — Binary search successful
 
-**Answer: D**
+**Answer: C**
 
 ```text
 3
@@ -837,7 +837,7 @@ cba
 
 ## O034 — Character filtering
 
-**Answer: B**
+**Answer: D**
 
 ```text
 3
@@ -869,7 +869,7 @@ cba
 
 ## O035 — End-exclusive slice
 
-**Answer: C**
+**Answer: A**
 
 ```text
 eu
@@ -884,7 +884,7 @@ eu
 
 ## O036 — String concatenation
 
-**Answer: D**
+**Answer: C**
 
 ```text
 123
@@ -906,7 +906,7 @@ eu
 
 ## O037 — Matrix row total
 
-**Answer: A**
+**Answer: B**
 
 ```text
 7
@@ -927,7 +927,7 @@ eu
 
 ## O038 — Secondary diagonal
 
-**Answer: B**
+**Answer: D**
 
 ```text
 15
@@ -950,7 +950,7 @@ eu
 
 ## O039 — Scalar parameter value
 
-**Answer: C**
+**Answer: D**
 
 ```text
 2 7
@@ -988,7 +988,7 @@ eu
 
 ## O041 — Nested function calls
 
-**Answer: A**
+**Answer: D**
 
 ```text
 13
@@ -1006,7 +1006,7 @@ eu
 
 ## O042 — Early RETURN
 
-**Answer: B**
+**Answer: D**
 
 ```text
 4 3
@@ -1026,7 +1026,7 @@ eu
 
 ## O043 — Recursive factorial trace
 
-**Answer: C**
+**Answer: D**
 
 ```text
 24
@@ -1077,13 +1077,13 @@ eu
 | 13 | f depth 3 | RETURN 0 | n=1 | — |
 | 14 | f depth 2 | RETURN 0 | n=2 | — |
 | 15 | f depth 1 | RETURN 0 | n=3 | — |
-| 16 | main | f(3) | — | 3\n2\n1 |
+| 16 | main | f(3) | — | — |
 
 **Explanation:** Printing happens before the recursive call.
 
 ## O045 — Print on return
 
-**Answer: A**
+**Answer: B**
 
 ```text
 1
@@ -1105,19 +1105,19 @@ eu
 | 10 | f depth 3 | f((n − 1)) | n=1 | — |
 | 11 | f depth 3 | PRINT | n=1 | 1 |
 | 12 | f depth 3 | RETURN 1 | n=1 | — |
-| 13 | f depth 2 | f((n − 1)) | n=2 | 1 |
+| 13 | f depth 2 | f((n − 1)) | n=2 | — |
 | 14 | f depth 2 | PRINT | n=2 | 2 |
 | 15 | f depth 2 | RETURN 2 | n=2 | — |
-| 16 | f depth 1 | f((n − 1)) | n=3 | 1\n2 |
+| 16 | f depth 1 | f((n − 1)) | n=3 | — |
 | 17 | f depth 1 | PRINT | n=3 | 3 |
 | 18 | f depth 1 | RETURN 3 | n=3 | — |
-| 19 | main | f(3) | — | 1\n2\n3 |
+| 19 | main | f(3) | — | — |
 
 **Explanation:** Pending prints execute while the stack unwinds.
 
 ## O046 — Two recursive branches
 
-**Answer: B**
+**Answer: A**
 
 ```text
 5
@@ -1176,7 +1176,7 @@ eu
 
 ## O047 — Recursive halving
 
-**Answer: C**
+**Answer: A**
 
 ```text
 4
@@ -1221,7 +1221,7 @@ eu
 
 ## O049 — Bitwise OR and XOR
 
-**Answer: A**
+**Answer: C**
 
 ```text
 7 6
@@ -1237,7 +1237,7 @@ eu
 
 ## O050 — Eight-bit complement
 
-**Answer: B**
+**Answer: D**
 
 ```text
 250
@@ -1251,7 +1251,7 @@ eu
 
 ## O051 — Shift then addition
 
-**Answer: C**
+**Answer: D**
 
 ```text
 13 6
@@ -1319,7 +1319,7 @@ eu
 
 ## O054 — Guard division with AND
 
-**Answer: B**
+**Answer: A**
 
 ```text
 FALSE
@@ -1334,7 +1334,7 @@ FALSE
 
 ## O055 — OR skips call side effect
 
-**Answer: C**
+**Answer: D**
 
 ```text
 TRUE
@@ -1364,7 +1364,7 @@ TRUE TRUE
 
 ## O057 — Digit extraction order
 
-**Answer: A**
+**Answer: D**
 
 ```text
 11
@@ -1419,7 +1419,7 @@ TRUE TRUE
 
 ## O059 — Euclid state
 
-**Answer: C**
+**Answer: A**
 
 ```text
 5 0
@@ -1444,7 +1444,7 @@ TRUE TRUE
 
 ## O060 — Negative-only maximum
 
-**Answer: D**
+**Answer: C**
 
 ```text
 -2
@@ -1466,7 +1466,7 @@ TRUE TRUE
 
 ## O061 — Boundary sequence 0/5/2
 
-**Answer: A**
+**Answer: B**
 
 ```text
 0 2 4
@@ -1522,7 +1522,7 @@ TRUE TRUE
 
 ## O063 — Boundary sequence 3/3/1
 
-**Answer: C**
+**Answer: D**
 
 ```text
 EMPTY
@@ -1540,7 +1540,7 @@ EMPTY
 
 ## O064 — Boundary sequence 8/1/-3
 
-**Answer: D**
+**Answer: B**
 
 ```text
 8 5 2
@@ -1568,7 +1568,7 @@ EMPTY
 
 ## O065 — Digit count boundary n=0
 
-**Answer: A**
+**Answer: D**
 
 ```text
 1
@@ -1602,7 +1602,7 @@ EMPTY
 
 ## O067 — Digit count boundary n=10
 
-**Answer: C**
+**Answer: D**
 
 ```text
 2
@@ -1622,7 +1622,7 @@ EMPTY
 
 ## O068 — Digit count boundary n=1001
 
-**Answer: D**
+**Answer: B**
 
 ```text
 4
@@ -1648,7 +1648,7 @@ EMPTY
 
 ## O069 — Prime boundary n=1
 
-**Answer: A**
+**Answer: C**
 
 ```text
 FALSE 2
@@ -1666,7 +1666,7 @@ FALSE 2
 
 ## O070 — Prime boundary n=2
 
-**Answer: B**
+**Answer: D**
 
 ```text
 TRUE 2
@@ -1684,7 +1684,7 @@ TRUE 2
 
 ## O071 — Prime boundary n=9
 
-**Answer: C**
+**Answer: B**
 
 ```text
 FALSE 4
@@ -1709,7 +1709,7 @@ FALSE 4
 
 ## O072 — Prime boundary n=17
 
-**Answer: D**
+**Answer: B**
 
 ```text
 TRUE 5
@@ -1736,7 +1736,7 @@ TRUE 5
 
 ## O073 — Fibonacci state after 0 updates
 
-**Answer: A**
+**Answer: C**
 
 ```text
 0 1
@@ -1753,7 +1753,7 @@ TRUE 5
 
 ## O074 — Fibonacci state after 1 updates
 
-**Answer: B**
+**Answer: A**
 
 ```text
 1 1
@@ -1774,7 +1774,7 @@ TRUE 5
 
 ## O075 — Fibonacci state after 4 updates
 
-**Answer: C**
+**Answer: D**
 
 ```text
 3 5
@@ -1807,7 +1807,7 @@ TRUE 5
 
 ## O076 — Fibonacci state after 6 updates
 
-**Answer: D**
+**Answer: C**
 
 ```text
 8 13
@@ -1866,7 +1866,7 @@ TRUE 5
 
 ## O078 — Search edge [3], target 3
 
-**Answer: B**
+**Answer: D**
 
 ```text
 0
@@ -1888,7 +1888,7 @@ TRUE 5
 
 ## O079 — Search edge [2, 2, 2], target 2
 
-**Answer: C**
+**Answer: B**
 
 ```text
 0
@@ -1910,7 +1910,7 @@ TRUE 5
 
 ## O080 — Search edge [1, 4, 7], target 5
 
-**Answer: D**
+**Answer: B**
 
 ```text
 -1
@@ -1983,7 +1983,7 @@ TRUE 5
 
 ## O083 — Parity-filtered triangle n=3
 
-**Answer: C**
+**Answer: A**
 
 ```text
 4
@@ -2021,7 +2021,7 @@ TRUE 5
 
 ## O084 — Parity-filtered triangle n=4
 
-**Answer: D**
+**Answer: C**
 
 ```text
 6
@@ -2071,7 +2071,7 @@ TRUE 5
 
 ## O085 — Java postfix then prefix
 
-**Answer: A**
+**Answer: C**
 
 ```text
 4 6 6
@@ -2092,7 +2092,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O086 — Java left-to-right increments
 
-**Answer: B**
+**Answer: D**
 
 ```text
 6 4
@@ -2135,7 +2135,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O088 — Java division sign
 
-**Answer: D**
+**Answer: B**
 
 ```text
 -2 -1
@@ -2153,7 +2153,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O089 — Java AND short-circuit
 
-**Answer: A**
+**Answer: B**
 
 ```text
 false 0
@@ -2163,7 +2163,7 @@ false 0
 | --- | --- | --- | --- | --- |
 | 1 | main | x ← 0 | x=0 | — |
 | 2 | main | flag ← FALSE | x=0; flag=FALSE | — |
-| 3 | main | PRINT | x=0; flag=FALSE | FALSE 0 |
+| 3 | main | PRINT | x=0; flag=FALSE | false 0 |
 
 **Explanation:** The false first operand skips ++x entirely; Java prints lowercase false.
 
@@ -2171,7 +2171,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O090 — Java switch fall-through
 
-**Answer: B**
+**Answer: D**
 
 ```text
 5
@@ -2210,7 +2210,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O092 — Java logical OR skip
 
-**Answer: D**
+**Answer: A**
 
 ```text
 true 1
@@ -2220,7 +2220,7 @@ true 1
 | --- | --- | --- | --- | --- |
 | 1 | main | x ← 1 | x=1 | — |
 | 2 | main | flag ← TRUE | x=1; flag=TRUE | — |
-| 3 | main | PRINT | x=1; flag=TRUE | TRUE 1 |
+| 3 | main | PRINT | x=1; flag=TRUE | true 1 |
 
 **Explanation:** True first operand skips x++ in the right operand. Java prints lowercase true.
 
@@ -2228,7 +2228,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O093 — Python floor division
 
-**Answer: A**
+**Answer: B**
 
 ```text
 -3 2
@@ -2246,7 +2246,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O094 — Python double unary plus
 
-**Answer: B**
+**Answer: C**
 
 ```text
 4 4
@@ -2290,7 +2290,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O096 — Python negative indexing
 
-**Answer: D**
+**Answer: B**
 
 ```text
 6
@@ -2307,7 +2307,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O097 — C increments separated
 
-**Answer: A**
+**Answer: C**
 
 ```text
 3 5 5
@@ -2328,7 +2328,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O098 — C decrement loop
 
-**Answer: B**
+**Answer: A**
 
 ```text
 10 0
@@ -2359,7 +2359,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O099 — C do-while runs once
 
-**Answer: C**
+**Answer: A**
 
 ```text
 1
@@ -2377,7 +2377,7 @@ The table separates side effects into their evaluation order. The displayed prog
 
 ## O100 — C integer division
 
-**Answer: D**
+**Answer: A**
 
 ```text
 3 2

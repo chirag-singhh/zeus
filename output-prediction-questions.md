@@ -41,15 +41,15 @@ PRINT x
 ```
 
 **B.** ```text
-11
-```
-
-**C.** ```text
 14
 ```
 
-**D.** ```text
+**C.** ```text
 9
+```
+
+**D.** ```text
+11
 ```
 
 ## O003 — Integer quotient and remainder
@@ -66,11 +66,11 @@ PRINT (a DIV 4), (a MOD 4)
 ```
 
 **B.** ```text
-6 3
+5 3
 ```
 
 **C.** ```text
-5 3
+6 3
 ```
 
 **D.** ```text
@@ -97,11 +97,11 @@ PRINT q, r
 ```
 
 **C.** ```text
--6 -3
+-5 -3
 ```
 
 **D.** ```text
--5 -3
+-6 -3
 ```
 
 ## O005 — Assignment uses old values
@@ -116,19 +116,19 @@ PRINT x, y
 ```
 
 **A.** ```text
-10 5
-```
-
-**B.** ```text
 10 10
 ```
 
-**C.** ```text
+**B.** ```text
 6 5
 ```
 
-**D.** ```text
+**C.** ```text
 5 10
+```
+
+**D.** ```text
+10 5
 ```
 
 ## O006 — Temporary swap
@@ -186,11 +186,11 @@ N
 ```
 
 **C.** ```text
+P
 Z
 ```
 
 **D.** ```text
-P
 Z
 ```
 
@@ -272,11 +272,11 @@ PRINT z
 ```
 
 **A.** ```text
-4
+9
 ```
 
 **B.** ```text
-9
+4
 ```
 
 **C.** ```text
@@ -308,11 +308,11 @@ PRINT s
 ```
 
 **C.** ```text
-16
+12
 ```
 
 **D.** ```text
-12
+16
 ```
 
 ## O012 — Descending loop
@@ -332,15 +332,15 @@ PRINT s
 ```
 
 **B.** ```text
-6
+12
 ```
 
 **C.** ```text
-14
+6
 ```
 
 **D.** ```text
-12
+14
 ```
 
 ## O013 — Skipped FOR body
@@ -356,11 +356,11 @@ PRINT s
 ```
 
 **A.** ```text
-9
+0
 ```
 
 **B.** ```text
-0
+9
 ```
 
 **C.** ```text
@@ -390,11 +390,11 @@ PRINT s, i
 ```
 
 **B.** ```text
-15 16
+15 8
 ```
 
 **C.** ```text
-15 8
+15 16
 ```
 
 **D.** ```text
@@ -446,19 +446,19 @@ PRINT s
 ```
 
 **A.** ```text
-15
+10
 ```
 
 **B.** ```text
-5
+15
 ```
 
 **C.** ```text
-14
+5
 ```
 
 **D.** ```text
-10
+14
 ```
 
 ## O017 — BREAK before addition
@@ -477,15 +477,15 @@ PRINT s
 ```
 
 **A.** ```text
-6
-```
-
-**B.** ```text
 10
 ```
 
-**C.** ```text
+**B.** ```text
 21
+```
+
+**C.** ```text
+6
 ```
 
 **D.** ```text
@@ -541,15 +541,15 @@ PRINT s
 ```
 
 **A.** ```text
-15
+12
 ```
 
 **B.** ```text
-9
+15
 ```
 
 **C.** ```text
-12
+9
 ```
 
 **D.** ```text
@@ -579,11 +579,11 @@ PRINT count
 ```
 
 **C.** ```text
-9
+6
 ```
 
 **D.** ```text
-6
+9
 ```
 
 ## O021 — Triangular loop
@@ -638,11 +638,11 @@ PRINT count
 ```
 
 **B.** ```text
-6
+12
 ```
 
 **C.** ```text
-12
+6
 ```
 
 **D.** ```text
@@ -666,15 +666,15 @@ PRINT count
 ```
 
 **A.** ```text
-10
+8
 ```
 
 **B.** ```text
-16
+10
 ```
 
 **C.** ```text
-8
+16
 ```
 
 **D.** ```text
@@ -699,15 +699,15 @@ PRINT s
 ```
 
 **B.** ```text
-3
+8
 ```
 
 **C.** ```text
-5
+3
 ```
 
 **D.** ```text
-8
+5
 ```
 
 ## O025 — Array mutation feeds next step
@@ -750,11 +750,11 @@ PRINT A, B
 ```
 
 **A.** ```text
-[3, 4] [3, 9]
+[3, 9] [3, 9]
 ```
 
 **B.** ```text
-[3, 9] [3, 9]
+[3, 4] [3, 9]
 ```
 
 **C.** ```text
@@ -785,11 +785,11 @@ PRINT A, B
 ```
 
 **C.** ```text
-[3, 4] [3, 9]
+[3, 9] [3, 4]
 ```
 
 **D.** ```text
-[3, 9] [3, 4]
+[3, 4] [3, 9]
 ```
 
 ## O028 — First matching index
@@ -809,19 +809,19 @@ PRINT answer
 ```
 
 **A.** ```text
-2
+0
 ```
 
 **B.** ```text
-1
+2
 ```
 
 **C.** ```text
--1
+1
 ```
 
 **D.** ```text
-0
+-1
 ```
 
 ## O029 — Last matching index
@@ -840,15 +840,15 @@ PRINT answer
 ```
 
 **A.** ```text
-2
-```
-
-**B.** ```text
 0
 ```
 
-**C.** ```text
+**B.** ```text
 1
+```
+
+**C.** ```text
+2
 ```
 
 **D.** ```text
@@ -876,15 +876,15 @@ PRINT A
 ```
 
 **B.** ```text
-[1, 3, 2, 4]
-```
-
-**C.** ```text
 [4, 3, 2, 1]
 ```
 
-**D.** ```text
+**C.** ```text
 [1, 4, 2, 3]
+```
+
+**D.** ```text
+[1, 3, 2, 4]
 ```
 
 ## O031 — Selection minimum index
@@ -907,11 +907,11 @@ PRINT best, A[best]
 ```
 
 **B.** ```text
-1 3
+3 2
 ```
 
 **C.** ```text
-3 2
+1 3
 ```
 
 **D.** ```text
@@ -951,11 +951,11 @@ PRINT answer
 ```
 
 **C.** ```text
--1
+3
 ```
 
 **D.** ```text
-3
+-1
 ```
 
 ## O033 — String reverse loop
@@ -1007,15 +1007,15 @@ PRINT count
 ```
 
 **B.** ```text
-3
-```
-
-**C.** ```text
 4
 ```
 
-**D.** ```text
+**C.** ```text
 6
+```
+
+**D.** ```text
+3
 ```
 
 ## O035 — End-exclusive slice
@@ -1028,15 +1028,15 @@ PRINT SLICE(s, 1, 3)
 ```
 
 **A.** ```text
-eus
+eu
 ```
 
 **B.** ```text
-ze
+eus
 ```
 
 **C.** ```text
-eu
+ze
 ```
 
 **D.** ```text
@@ -1064,11 +1064,11 @@ PRINT s
 ```
 
 **C.** ```text
-1 2 3
+123
 ```
 
 **D.** ```text
-123
+1 2 3
 ```
 
 ## O037 — Matrix row total
@@ -1085,11 +1085,11 @@ PRINT s
 ```
 
 **A.** ```text
-7
+3
 ```
 
 **B.** ```text
-3
+7
 ```
 
 **C.** ```text
@@ -1118,15 +1118,15 @@ PRINT s
 ```
 
 **B.** ```text
-15
-```
-
-**C.** ```text
 45
 ```
 
-**D.** ```text
+**C.** ```text
 12
+```
+
+**D.** ```text
+15
 ```
 
 ## O039 — Scalar parameter value
@@ -1152,11 +1152,11 @@ PRINT a, b
 ```
 
 **C.** ```text
-2 7
+7 2
 ```
 
 **D.** ```text
-7 2
+2 7
 ```
 
 ## O040 — Array parameter mutation
@@ -1201,19 +1201,19 @@ PRINT (twice(twice(3)) + 1)
 ```
 
 **A.** ```text
-13
-```
-
-**B.** ```text
 7
 ```
 
-**C.** ```text
+**B.** ```text
 12
 ```
 
-**D.** ```text
+**C.** ```text
 14
+```
+
+**D.** ```text
+13
 ```
 
 ## O042 — Early RETURN
@@ -1235,15 +1235,15 @@ PRINT f((−4)), f(3)
 ```
 
 **B.** ```text
-4 3
-```
-
-**C.** ```text
 4 -3
 ```
 
-**D.** ```text
+**C.** ```text
 -4 -3
+```
+
+**D.** ```text
+4 3
 ```
 
 ## O043 — Recursive factorial trace
@@ -1269,11 +1269,11 @@ PRINT f(4)
 ```
 
 **C.** ```text
-24
+4
 ```
 
 **D.** ```text
-4
+24
 ```
 
 ## O044 — Print on descent
@@ -1334,15 +1334,15 @@ f(3)
 ```
 
 **A.** ```text
-1
-2
 3
+2
+1
 ```
 
 **B.** ```text
-3
-2
 1
+2
+3
 ```
 
 **C.** ```text
@@ -1371,11 +1371,11 @@ PRINT f(5)
 ```
 
 **A.** ```text
-8
+5
 ```
 
 **B.** ```text
-5
+8
 ```
 
 **C.** ```text
@@ -1401,15 +1401,15 @@ PRINT f(10)
 ```
 
 **A.** ```text
-3
+4
 ```
 
 **B.** ```text
-5
+3
 ```
 
 **C.** ```text
-4
+5
 ```
 
 **D.** ```text
@@ -1453,15 +1453,15 @@ PRINT (a BIT_OR b), (a BIT_XOR b)
 ```
 
 **A.** ```text
-7 6
-```
-
-**B.** ```text
 6 7
 ```
 
-**C.** ```text
+**B.** ```text
 1 6
+```
+
+**C.** ```text
+7 6
 ```
 
 **D.** ```text
@@ -1481,15 +1481,15 @@ PRINT BIT_NOT8(5)
 ```
 
 **B.** ```text
-250
-```
-
-**C.** ```text
 251
 ```
 
-**D.** ```text
+**C.** ```text
 5
+```
+
+**D.** ```text
+250
 ```
 
 ## O051 — Shift then addition
@@ -1510,11 +1510,11 @@ PRINT ((x SHL 2) + 1), (13 SHR 1)
 ```
 
 **C.** ```text
-13 6
+13 7
 ```
 
 **D.** ```text
-13 7
+13 6
 ```
 
 ## O052 — XOR cancellation
@@ -1586,11 +1586,11 @@ PRINT ((d ≠ 0) AND ((12 DIV d) > 1))
 ```
 
 **A.** ```text
-TRUE
+FALSE
 ```
 
 **B.** ```text
-FALSE
+TRUE
 ```
 
 **C.** ```text
@@ -1624,11 +1624,11 @@ FALSE
 ```
 
 **C.** ```text
-TRUE
+FALSE
 ```
 
 **D.** ```text
-FALSE
+TRUE
 ```
 
 ## O056 — De Morgan evaluation
@@ -1672,19 +1672,19 @@ PRINT s
 ```
 
 **A.** ```text
-11
-```
-
-**B.** ```text
 407
 ```
 
-**C.** ```text
+**B.** ```text
 7
 ```
 
-**D.** ```text
+**C.** ```text
 4
+```
+
+**D.** ```text
+11
 ```
 
 ## O058 — Numeric reversal drops zeros
@@ -1733,15 +1733,15 @@ PRINT a, b
 ```
 
 **A.** ```text
-15 5
+5 0
 ```
 
 **B.** ```text
-0 5
+15 5
 ```
 
 **C.** ```text
-5 0
+0 5
 ```
 
 **D.** ```text
@@ -1772,11 +1772,11 @@ PRINT best
 ```
 
 **C.** ```text
--4
+-2
 ```
 
 **D.** ```text
--2
+-4
 ```
 
 ## O061 — Boundary sequence 0/5/2
@@ -1798,11 +1798,11 @@ PRINT s
 ```
 
 **A.** ```text
-0 2 4
+0
 ```
 
 **B.** ```text
-0
+0 2 4
 ```
 
 **C.** ```text
@@ -1874,11 +1874,11 @@ Does not terminate
 ```
 
 **C.** ```text
-EMPTY
+No output
 ```
 
 **D.** ```text
-No output
+EMPTY
 ```
 
 ## O064 — Boundary sequence 8/1/-3
@@ -1904,15 +1904,15 @@ PRINT s
 ```
 
 **B.** ```text
-8 5 2 1
+8 5 2
 ```
 
 **C.** ```text
-Does not terminate
+8 5 2 1
 ```
 
 **D.** ```text
-8 5 2
+Does not terminate
 ```
 
 ## O065 — Digit count boundary n=0
@@ -1930,19 +1930,19 @@ PRINT count
 ```
 
 **A.** ```text
-1
-```
-
-**B.** ```text
 0
 ```
 
-**C.** ```text
+**B.** ```text
 2
 ```
 
-**D.** ```text
+**C.** ```text
 3
+```
+
+**D.** ```text
+1
 ```
 
 ## O066 — Digit count boundary n=1
@@ -1998,11 +1998,11 @@ PRINT count
 ```
 
 **C.** ```text
-2
+4
 ```
 
 **D.** ```text
-4
+2
 ```
 
 ## O068 — Digit count boundary n=1001
@@ -2024,15 +2024,15 @@ PRINT count
 ```
 
 **B.** ```text
-5
+4
 ```
 
 **C.** ```text
-6
+5
 ```
 
 **D.** ```text
-4
+6
 ```
 
 ## O069 — Prime boundary n=1
@@ -2053,15 +2053,15 @@ PRINT prime, d
 ```
 
 **A.** ```text
-FALSE 2
-```
-
-**B.** ```text
 No output
 ```
 
-**C.** ```text
+**B.** ```text
 Runtime error
+```
+
+**C.** ```text
+FALSE 2
 ```
 
 **D.** ```text
@@ -2090,15 +2090,15 @@ No output
 ```
 
 **B.** ```text
-TRUE 2
-```
-
-**C.** ```text
 Runtime error
 ```
 
-**D.** ```text
+**C.** ```text
 Does not terminate
+```
+
+**D.** ```text
+TRUE 2
 ```
 
 ## O071 — Prime boundary n=9
@@ -2123,11 +2123,11 @@ No output
 ```
 
 **B.** ```text
-Runtime error
+FALSE 4
 ```
 
 **C.** ```text
-FALSE 4
+Runtime error
 ```
 
 **D.** ```text
@@ -2156,15 +2156,15 @@ TRUE 2
 ```
 
 **B.** ```text
-FALSE 2
+TRUE 5
 ```
 
 **C.** ```text
-FALSE 5
+FALSE 2
 ```
 
 **D.** ```text
-TRUE 5
+FALSE 5
 ```
 
 ## O073 — Fibonacci state after 0 updates
@@ -2183,15 +2183,15 @@ PRINT a, b
 ```
 
 **A.** ```text
-0 1
-```
-
-**B.** ```text
 1 0
 ```
 
-**C.** ```text
+**B.** ```text
 1 2
+```
+
+**C.** ```text
+0 1
 ```
 
 **D.** ```text
@@ -2214,11 +2214,11 @@ PRINT a, b
 ```
 
 **A.** ```text
-2 2
+1 1
 ```
 
 **B.** ```text
-1 1
+2 2
 ```
 
 **C.** ```text
@@ -2253,11 +2253,11 @@ PRINT a, b
 ```
 
 **C.** ```text
-3 5
+2 4
 ```
 
 **D.** ```text
-2 4
+3 5
 ```
 
 ## O076 — Fibonacci state after 6 updates
@@ -2284,11 +2284,11 @@ PRINT a, b
 ```
 
 **C.** ```text
-7 12
+8 13
 ```
 
 **D.** ```text
-8 13
+7 12
 ```
 
 ## O077 — Search edge [], target 1
@@ -2346,15 +2346,15 @@ PRINT found
 ```
 
 **B.** ```text
-0
-```
-
-**C.** ```text
 -1
 ```
 
-**D.** ```text
+**C.** ```text
 2
+```
+
+**D.** ```text
+0
 ```
 
 ## O079 — Search edge [2, 2, 2], target 2
@@ -2379,11 +2379,11 @@ PRINT found
 ```
 
 **B.** ```text
--1
+0
 ```
 
 **C.** ```text
-0
+-1
 ```
 
 **D.** ```text
@@ -2412,15 +2412,15 @@ PRINT found
 ```
 
 **B.** ```text
--2
+-1
 ```
 
 **C.** ```text
-1
+-2
 ```
 
 **D.** ```text
--1
+1
 ```
 
 ## O081 — Parity-filtered triangle n=1
@@ -2504,15 +2504,15 @@ PRINT count
 ```
 
 **A.** ```text
-5
+4
 ```
 
 **B.** ```text
-3
+5
 ```
 
 **C.** ```text
-4
+3
 ```
 
 **D.** ```text
@@ -2544,11 +2544,11 @@ PRINT count
 ```
 
 **C.** ```text
-8
+6
 ```
 
 **D.** ```text
-6
+8
 ```
 
 ## O085 — Java postfix then prefix
@@ -2563,15 +2563,15 @@ System.out.println(a+" "+b+" "+x);
 ```
 
 **A.** ```text
-4 6 6
-```
-
-**B.** ```text
 5 6 6
 ```
 
-**C.** ```text
+**B.** ```text
 4 5 6
+```
+
+**C.** ```text
+4 6 6
 ```
 
 **D.** ```text
@@ -2593,15 +2593,15 @@ System.out.println(y+" "+x);
 ```
 
 **B.** ```text
-6 4
-```
-
-**C.** ```text
 7 4
 ```
 
-**D.** ```text
+**C.** ```text
 Undefined behavior
+```
+
+**D.** ```text
+6 4
 ```
 
 ## O087 — Java decrements
@@ -2644,15 +2644,15 @@ System.out.println((-7/3)+" "+(-7%3));
 ```
 
 **B.** ```text
--2 1
+-2 -1
 ```
 
 **C.** ```text
--3 -1
+-2 1
 ```
 
 **D.** ```text
--2 -1
+-3 -1
 ```
 
 ## O089 — Java AND short-circuit
@@ -2666,11 +2666,11 @@ System.out.println(flag+" "+x);
 ```
 
 **A.** ```text
-false 0
+true 1
 ```
 
 **B.** ```text
-true 1
+false 0
 ```
 
 **C.** ```text
@@ -2701,15 +2701,15 @@ System.out.println(s);
 ```
 
 **B.** ```text
-5
-```
-
-**C.** ```text
 3
 ```
 
-**D.** ```text
+**C.** ```text
 0
+```
+
+**D.** ```text
+5
 ```
 
 ## O091 — Java ternary skips other arm
@@ -2749,19 +2749,19 @@ System.out.println(flag+" "+x);
 ```
 
 **A.** ```text
-true 2
+true 1
 ```
 
 **B.** ```text
-false 1
+true 2
 ```
 
 **C.** ```text
-false 2
+false 1
 ```
 
 **D.** ```text
-true 1
+false 2
 ```
 
 ## O093 — Python floor division
@@ -2773,11 +2773,11 @@ print(-7 // 3, -7 % 3)
 ```
 
 **A.** ```text
--3 2
+-2 -1
 ```
 
 **B.** ```text
--2 -1
+-3 2
 ```
 
 **C.** ```text
@@ -2803,11 +2803,11 @@ print(x, y)
 ```
 
 **B.** ```text
-4 4
+4 5
 ```
 
 **C.** ```text
-4 5
+4 4
 ```
 
 **D.** ```text
@@ -2855,15 +2855,15 @@ Runtime error
 ```
 
 **B.** ```text
-2
+6
 ```
 
 **C.** ```text
-4
+2
 ```
 
 **D.** ```text
-6
+4
 ```
 
 ## O097 — C increments separated
@@ -2882,15 +2882,15 @@ int main(void) {
 ```
 
 **A.** ```text
-3 5 5
-```
-
-**B.** ```text
 4 5 5
 ```
 
-**C.** ```text
+**B.** ```text
 3 4 5
+```
+
+**C.** ```text
+3 5 5
 ```
 
 **D.** ```text
@@ -2912,11 +2912,11 @@ int main(void) {
 ```
 
 **A.** ```text
-6 0
+10 0
 ```
 
 **B.** ```text
-10 0
+6 0
 ```
 
 **C.** ```text
@@ -2942,15 +2942,15 @@ int main(void) {
 ```
 
 **A.** ```text
-0
+1
 ```
 
 **B.** ```text
-2
+0
 ```
 
 **C.** ```text
-1
+2
 ```
 
 **D.** ```text
@@ -2970,17 +2970,17 @@ int main(void) {
 ```
 
 **A.** ```text
-3.4 0
+3 2
 ```
 
 **B.** ```text
-4 2
+3.4 0
 ```
 
 **C.** ```text
-3 3
+4 2
 ```
 
 **D.** ```text
-3 2
+3 3
 ```
